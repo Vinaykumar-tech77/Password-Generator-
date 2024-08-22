@@ -1,0 +1,111 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+  color: black;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+header.cover {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+header.cover .profile-photo {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+header.cover h1 {
+  margin: 10px 0;
+}
+
+header.cover .contact-link {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar {
+  background: black;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar ul li {
+  margin: 0 15px;
+}
+
+.navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.section {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.section h2 {
+  border-bottom: 2px solid #333;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.project {
+  margin-bottom: 20px;
+}
+
+.project-link {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+footer {
+  height: 10%;
+  background: black;
+  color: black;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  bottom: 0;
+}
+
+.project-link {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.project-link:hover,
+.project-link:focus {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.project-link:active {
+  background-color: #00408d;
+  transform: scale(1);
+}
